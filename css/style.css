@@ -1,0 +1,51 @@
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+.navbar-green {
+  background:#2ECD71;
+}
+ 
+.navbar-green a {
+  color:#ffffff;
+}
+.navbar-green .navbar-nav > li > a:hover,
+.navbar-green .navbar-nav > li > a:focus {
+    color: #333;
+}
+.navbar-green .navbar-nav > .active > a,
+.navbar-green .navbar-nav > .active > a:hover,
+.navbar-green .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: #ffffff;
+}
+.navbar-green .navbar-nav > .open > a,
+.navbar-green .navbar-nav > .open > a:hover,
+.navbar-green .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #ffffff;
+}
+.navbar-green .navbar-toggle {
+    border-color: #ffffff;
+}
+.navbar-green .navbar-toggle:hover,
+.navbar-green .navbar-toggle:focus {
+    background-color: #ffffff;
+}
+.navbar-green .navbar-toggle .icon-bar {
+    background-color: #CCC;
+}
+.footer {
+  flex-shrink: none;
+}
